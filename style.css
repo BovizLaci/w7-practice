@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset vége */
+body {
+  font-size: 20px;
+  color: darkblue;
+  font-family: 'Roboto Slab', serif;
+}
+
+input {
+  font-size: 1em;
+  margin: 5px;
+  border-color: darkcyan;
+  border-radius: 5px;
+}
+
+input[type="email"], input[type="text"] {
+  padding: 5px 10px;
+}
+
+input:focus {
+  background-color: lightgoldenrodyellow;
+}
+
+select {
+  font-size: 1em;
+  margin-top: 2.5em;
+}
+
+input[name="newsLetter"] {
+  margin-top: 3em;
+}
+
+input[type="checkbox"] {
+  margin-left: 20px;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  word-wrap: break-word;
+}
+
+div#root {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 25px 40px;
+  background-color: paleturquoise;
+  -webkit-box-shadow: darkcyan;
+          box-shadow: darkcyan;
+  border-radius: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  margin: 10px 20px;
+}
+
+label.one-line {
+  width: auto;
+}
+
+div.center {
+  text-align: center;
+  margin: 40px auto 20px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 15px;
+  background-color: darkblue;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=style.css.map */
